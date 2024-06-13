@@ -1,0 +1,193 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void AndroidNotifications::.ctor()
+extern void AndroidNotifications__ctor_m27DA6CCA53AD7D640C60E6D62236BE6F6890ACE4 (void);
+// 0x00000002 System.Void Camera::Start()
+extern void Camera_Start_m48167220F68C499CA52D515C89D271BB2201233D (void);
+// 0x00000003 System.Void Camera::Update()
+extern void Camera_Update_m60638BE66FB3F1B5A163454A4BABAA692DE45B5F (void);
+// 0x00000004 System.Void Camera::.ctor()
+extern void Camera__ctor_m25E6BFC52C3B33D00EB7D3809145AB3A385B3EFC (void);
+// 0x00000005 System.Void Car::add_ObstacleTouched(System.Action)
+extern void Car_add_ObstacleTouched_mCD1AA18E80868AF8A56B9F0AB7A8EDCD498419E0 (void);
+// 0x00000006 System.Void Car::remove_ObstacleTouched(System.Action)
+extern void Car_remove_ObstacleTouched_m11245850BB841337C927093EFE113CB6298FEE8C (void);
+// 0x00000007 System.Void Car::Update()
+extern void Car_Update_m564142FBDB4611544F57A4AEA214D2036A6BBA78 (void);
+// 0x00000008 System.Void Car::OnTriggerEnter(UnityEngine.Collider)
+extern void Car_OnTriggerEnter_m8955D01F901BC6DE6B14C8BA360E628548411349 (void);
+// 0x00000009 System.Void Car::Steer(System.Int32)
+extern void Car_Steer_m0FAEA03768523C559914B84AEBE459A715FE09FB (void);
+// 0x0000000A System.Void Car::.ctor()
+extern void Car__ctor_m2C9B68B7B9DC98BEECA5ABA074092ECBDD5ACA1D (void);
+// 0x0000000B System.Void GameOverMenu::Start()
+extern void GameOverMenu_Start_m9908A6BDC3D808E64946B3AED520ACD9A0064514 (void);
+// 0x0000000C System.Void GameOverMenu::Update()
+extern void GameOverMenu_Update_m62948F63197BA2AE8AAB8D23EE4726074E3EEE7C (void);
+// 0x0000000D System.Void GameOverMenu::RetryGame()
+extern void GameOverMenu_RetryGame_m829CBC9CB84B707908E7D45216C3777C523CB6E6 (void);
+// 0x0000000E System.Void GameOverMenu::GoToMainMenu()
+extern void GameOverMenu_GoToMainMenu_m1644DF0033F6E14733B6CF287FA8E0D298106D51 (void);
+// 0x0000000F System.Void GameOverMenu::QuitGame()
+extern void GameOverMenu_QuitGame_m577055C7B6E90156A8B82C7B300ADAFC454963B0 (void);
+// 0x00000010 System.Void GameOverMenu::.ctor()
+extern void GameOverMenu__ctor_mAF4653F520E8003EBAF7EC952652CA5E20A93F37 (void);
+// 0x00000011 System.Void IOSNotifications::ScheduleNotification(System.Int32)
+extern void IOSNotifications_ScheduleNotification_mA3ACAD29BB7EC2DA92BCC6791B27E9C7CFC3F5E6 (void);
+// 0x00000012 System.Void IOSNotifications::.ctor()
+extern void IOSNotifications__ctor_m67A6F6E036E23D7D97B79CE19658C330FBE1A813 (void);
+// 0x00000013 System.Void MainMenu::Start()
+extern void MainMenu_Start_m1729BDE6D096D9F4C92DBE72B392BA89E9A9ECAD (void);
+// 0x00000014 System.Void MainMenu::Play()
+extern void MainMenu_Play_m83A060624413533808E63A4420ECEFA5A9FB07E6 (void);
+// 0x00000015 System.Void MainMenu::QuitGame()
+extern void MainMenu_QuitGame_mBF761274C14BD7341FE8C32A538D28343B63EDC4 (void);
+// 0x00000016 System.Void MainMenu::.ctor()
+extern void MainMenu__ctor_m8209CEC1D907C87A96D777961F4D0536E6E948DD (void);
+// 0x00000017 System.Void PauseMenu::Start()
+extern void PauseMenu_Start_m4BBF1E67B42A2E936C792E83778ADCD87DE3C80E (void);
+// 0x00000018 System.Void PauseMenu::Update()
+extern void PauseMenu_Update_m5097E74BFD4385B73BA9EF7198886DCEC7DF9A83 (void);
+// 0x00000019 System.Void PauseMenu::PauseGame()
+extern void PauseMenu_PauseGame_m5F9F76E8D0822B61CEE60DD44562CA95076BAEEF (void);
+// 0x0000001A System.Void PauseMenu::ResumeGame()
+extern void PauseMenu_ResumeGame_m8C22F921DCAA4122C7FF4FCDB87A5041962493A0 (void);
+// 0x0000001B System.Void PauseMenu::GoToMainMenu()
+extern void PauseMenu_GoToMainMenu_m50AEE3CAA85C8824937AD01C067E4D799CA0FC05 (void);
+// 0x0000001C System.Void PauseMenu::QuitGame()
+extern void PauseMenu_QuitGame_m699C16B5AE66C12C48F4D7B4821169679C5FF760 (void);
+// 0x0000001D System.Void PauseMenu::.ctor()
+extern void PauseMenu__ctor_m81B0E020DC5008DA4D414200BAAF7122B430D826 (void);
+// 0x0000001E System.Void ScoreSystem::SetIsDestroyed(System.Boolean)
+extern void ScoreSystem_SetIsDestroyed_m7B4A0C1CCD8CD891E521D80A29B0EC805CFCDAF6 (void);
+// 0x0000001F System.Void ScoreSystem::Start()
+extern void ScoreSystem_Start_m0B4C6077195DF7D69A56FF47D4ECE3370A804481 (void);
+// 0x00000020 System.Void ScoreSystem::Update()
+extern void ScoreSystem_Update_m94C8F1335F9DF5E1FD783E6CC88D6F712974F67B (void);
+// 0x00000021 System.Void ScoreSystem::OnDestroy()
+extern void ScoreSystem_OnDestroy_mB0A19E597C05B1FA20AFD3D7084B046371263408 (void);
+// 0x00000022 System.Void ScoreSystem::.ctor()
+extern void ScoreSystem__ctor_m1F2BE55DDCF8A3AFF5EB5C6B55F705905D4E2925 (void);
+// 0x00000023 System.Void UIManager::OnEnable()
+extern void UIManager_OnEnable_mA8372EFC3A4B28B950347B9E950545D5BE973345 (void);
+// 0x00000024 System.Void UIManager::OnDisable()
+extern void UIManager_OnDisable_mA15EE0204388FCDE5E0522FF499144658999C1A6 (void);
+// 0x00000025 System.Void UIManager::EnableGameOverMenu()
+extern void UIManager_EnableGameOverMenu_m7B9CD9BEFD4E834F60FE8E7F7B8FBDDFE4D040AA (void);
+// 0x00000026 System.Void UIManager::.ctor()
+extern void UIManager__ctor_mC9DC2B8984E76F424E73C1860AD4BD3DEBF6573F (void);
+static Il2CppMethodPointer s_methodPointers[38] = 
+{
+	AndroidNotifications__ctor_m27DA6CCA53AD7D640C60E6D62236BE6F6890ACE4,
+	Camera_Start_m48167220F68C499CA52D515C89D271BB2201233D,
+	Camera_Update_m60638BE66FB3F1B5A163454A4BABAA692DE45B5F,
+	Camera__ctor_m25E6BFC52C3B33D00EB7D3809145AB3A385B3EFC,
+	Car_add_ObstacleTouched_mCD1AA18E80868AF8A56B9F0AB7A8EDCD498419E0,
+	Car_remove_ObstacleTouched_m11245850BB841337C927093EFE113CB6298FEE8C,
+	Car_Update_m564142FBDB4611544F57A4AEA214D2036A6BBA78,
+	Car_OnTriggerEnter_m8955D01F901BC6DE6B14C8BA360E628548411349,
+	Car_Steer_m0FAEA03768523C559914B84AEBE459A715FE09FB,
+	Car__ctor_m2C9B68B7B9DC98BEECA5ABA074092ECBDD5ACA1D,
+	GameOverMenu_Start_m9908A6BDC3D808E64946B3AED520ACD9A0064514,
+	GameOverMenu_Update_m62948F63197BA2AE8AAB8D23EE4726074E3EEE7C,
+	GameOverMenu_RetryGame_m829CBC9CB84B707908E7D45216C3777C523CB6E6,
+	GameOverMenu_GoToMainMenu_m1644DF0033F6E14733B6CF287FA8E0D298106D51,
+	GameOverMenu_QuitGame_m577055C7B6E90156A8B82C7B300ADAFC454963B0,
+	GameOverMenu__ctor_mAF4653F520E8003EBAF7EC952652CA5E20A93F37,
+	IOSNotifications_ScheduleNotification_mA3ACAD29BB7EC2DA92BCC6791B27E9C7CFC3F5E6,
+	IOSNotifications__ctor_m67A6F6E036E23D7D97B79CE19658C330FBE1A813,
+	MainMenu_Start_m1729BDE6D096D9F4C92DBE72B392BA89E9A9ECAD,
+	MainMenu_Play_m83A060624413533808E63A4420ECEFA5A9FB07E6,
+	MainMenu_QuitGame_mBF761274C14BD7341FE8C32A538D28343B63EDC4,
+	MainMenu__ctor_m8209CEC1D907C87A96D777961F4D0536E6E948DD,
+	PauseMenu_Start_m4BBF1E67B42A2E936C792E83778ADCD87DE3C80E,
+	PauseMenu_Update_m5097E74BFD4385B73BA9EF7198886DCEC7DF9A83,
+	PauseMenu_PauseGame_m5F9F76E8D0822B61CEE60DD44562CA95076BAEEF,
+	PauseMenu_ResumeGame_m8C22F921DCAA4122C7FF4FCDB87A5041962493A0,
+	PauseMenu_GoToMainMenu_m50AEE3CAA85C8824937AD01C067E4D799CA0FC05,
+	PauseMenu_QuitGame_m699C16B5AE66C12C48F4D7B4821169679C5FF760,
+	PauseMenu__ctor_m81B0E020DC5008DA4D414200BAAF7122B430D826,
+	ScoreSystem_SetIsDestroyed_m7B4A0C1CCD8CD891E521D80A29B0EC805CFCDAF6,
+	ScoreSystem_Start_m0B4C6077195DF7D69A56FF47D4ECE3370A804481,
+	ScoreSystem_Update_m94C8F1335F9DF5E1FD783E6CC88D6F712974F67B,
+	ScoreSystem_OnDestroy_mB0A19E597C05B1FA20AFD3D7084B046371263408,
+	ScoreSystem__ctor_m1F2BE55DDCF8A3AFF5EB5C6B55F705905D4E2925,
+	UIManager_OnEnable_mA8372EFC3A4B28B950347B9E950545D5BE973345,
+	UIManager_OnDisable_mA15EE0204388FCDE5E0522FF499144658999C1A6,
+	UIManager_EnableGameOverMenu_m7B9CD9BEFD4E834F60FE8E7F7B8FBDDFE4D040AA,
+	UIManager__ctor_mC9DC2B8984E76F424E73C1860AD4BD3DEBF6573F,
+};
+static const int32_t s_InvokerIndices[38] = 
+{
+	4984,
+	4984,
+	4984,
+	4984,
+	7411,
+	7411,
+	4984,
+	3975,
+	3952,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	3952,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	7400,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+	4984,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	38,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

@@ -1,0 +1,29 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Car">
+			<method name="Steer"/>
+			<method name="Steer"/>
+			<method name="Steer"/>
+			<method name="Steer"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="Play"/>
+			<method name="QuitGame"/>
+		</type>
+		<type fullname="PauseMenu">
+			<method name="GoToMainMenu"/>
+			<method name="GoToMainMenu"/>
+			<method name="GoToMainMenu"/>
+			<method name="PauseGame"/>
+			<method name="QuitGame"/>
+			<method name="ResumeGame"/>
+			<method name="ResumeGame"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>
